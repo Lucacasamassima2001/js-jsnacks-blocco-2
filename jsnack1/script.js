@@ -4,14 +4,14 @@
 
 
 
-const maArr = [];
+const myArr = [];
 
-for(i = 0 ; i <=5; i++){
-    let num = parseInt(prompt("Dammi un numero"))
+for(i = 0 ; i < 6; i++){
+    const num = parseInt(prompt("Dammi un numero"));
     
-    if(num%2 !=0){
-        myarr[i] = num
+    if(num % 2 == 1){
+        myArr.push(num);
+        // console.log(num)
     }
-    console.log(num)
 }
 console.log(myArr)
